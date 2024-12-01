@@ -89,9 +89,8 @@ export default function App() {
   }
 
   return (
-    <>
-      <h1>Notes App Login</h1>
       <Authenticator>
+        <h1>Notes App Login</h1>
         {({ signOut }) => (
           <Flex
             className="App"
@@ -183,6 +182,5 @@ export default function App() {
           </Flex>
         )}
       </Authenticator>
-    </>
   );
 }
